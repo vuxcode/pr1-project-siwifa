@@ -35,12 +35,14 @@ numbers[0] = Number(1);
 number[10] = Number(11);
 number[11] = Number(12);
 number[12] = Number(13);
+
 // Creating function to add card 
 function addCard() {
-    // output
-    output.innerText = numbers[0];
+    // output with random function
+    output.innerText = numbers[(Math.floor(Math.random() * numbers.length))];
 }
-
+// Struggled a bit to make the random function work
+// Tried to search it from google and from what i could find and what i think made it a problem for me i missed the [squarebrackets]
 
 
 
